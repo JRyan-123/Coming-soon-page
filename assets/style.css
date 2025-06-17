@@ -14,6 +14,54 @@ body{
 	width: 100%;
 	filter: drop-shadow(.1);
 }
+
+#name{
+	position: absolute;
+	left: 40px;
+	height: 15vh;
+
+}
 .content{
-	top: ;
+	top: 30%;
+	padding-left: 10% ;
+	position: absolute;
+	color: white;
+}
+
+.content h1{
+	font-size: 90px;
+}
+span{
+	color: #d41717;
+}
+.content button{
+	background: transparent;
+	color: white;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border: 1px solid whitesmoke;
+	border-radius: 5px;
+	transition: transform .4s;
+	cursor: pointer;
+}
+.content button img{
+	width: 40px;
+	filter: invert(1) brightness(2);
+}
+.content button:hover{
+	transform: scale(1.1);
+}
+.countdown{
+	display: flex;
+	align-items: center;
+	margin-top: -20px;
+	margin-bottom: 20px;
+	gap: 40px;
+}
+.countdown p{
+	font-size: 45px;
+}
+.countdown span{
+	font-size: 14px;
 }
